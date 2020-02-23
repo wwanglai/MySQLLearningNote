@@ -9,12 +9,22 @@
        + 参考
 ## 数据库管理
    * 数据库启动与停止
+      + 启动
+         * 方法一
+         ```sql
+       
+         ```
+      + 停止
+         * 方法一
+         ```sql
+       
+         ```
    * 数据库连接
       + 本地连接
       + 远程连接
       ```sql
-       CREATE USER 'root'@'192.168.1.6' IDENTIFIED BY 'root123'; # 创建用户
-       GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.6'; # 赋予用户权限
+          CREATE USER 'root'@'192.168.1.6' IDENTIFIED BY 'root123'; # 创建用户
+          GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.6'; # 赋予用户权限
        
        # 成功后会出现这行代码
        # Query OK, 0 rows affected (0.02 sec)
