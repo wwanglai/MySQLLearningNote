@@ -12,7 +12,8 @@
       + 启动
          * 方法一
          ```sql
-       
+         ./mysqld --datadir=/Users/jennywang/data/mysqldatadev/data_8.0.19 --console # 使用指定数据库
+         ./mysqld --console # 使用默认的数据库，顺序详见MySQL书本第
          ```
       + 停止
          * 方法一
