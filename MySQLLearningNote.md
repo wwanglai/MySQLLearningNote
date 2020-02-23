@@ -22,6 +22,10 @@
          ```
    * 数据库连接
       + 本地连接
+     ```sql
+         mysql -h 192.168.0.104 -u root -p
+         mysql -h localhost -u root -p
+     ```
       + 远程连接
       ```sql
           CREATE USER 'root'@'192.168.1.6' IDENTIFIED BY 'root123'; # 创建用户
