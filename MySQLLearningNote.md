@@ -13,6 +13,15 @@
       + 本地连接
       + 远程连接
    * 用户管理
+      + 密码设置
+      ```sql
+          shell> mysql -u root
+          mysql> UPDATE mysql.user SET Password = PASSWORD('newpwd') WHERE User = 'root';
+          mysql> FLUSH PRIVILEGES;
+
+          shell> mysqladmin -u root password "newpwd" -- mysqladmin: [Warning] Using a password on the command line interface can be insecure.
+          shell> mysqladmin -u root -h host_name password "newpwd"
+      ```
 ## 数据库操作
    * 创建数据库
       + 创建脚本
