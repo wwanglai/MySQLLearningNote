@@ -3,7 +3,6 @@
 ## 安装与配置
    * 官网参考
    * 参考
-      + :heavy-check-:[INsteafdafafd](http:\\fdafafa)<br>
 
 
 ## 数据库操作
