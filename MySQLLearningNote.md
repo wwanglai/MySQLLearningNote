@@ -12,6 +12,13 @@
    * 数据库连接
       + 本地连接
       + 远程连接
+      ```sql
+       CREATE USER 'root'@'192.168.1.6' IDENTIFIED BY 'root123'; # 创建用户
+       GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.6'; # 赋予用户权限
+       
+       # 成功后会出现这行代码
+       # Query OK, 0 rows affected (0.02 sec)
+      ```
    * 用户管理
       + 密码设置
       ```sql
