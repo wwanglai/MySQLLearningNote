@@ -48,3 +48,20 @@
       ```
    * 创建表
    * 创建索引
+   
+## 数据库维护
+   # 数据库测试命令
+   ```sql
+        Checking&Query The Server
+        2.9.3 Testing the Server
+        shell> bin/mysqladmin version
+        shell> bin/mysqladmin variables
+        mysqladmin version status proc
+        shell> bin/mysqladmin -u root -p version
+        Enter password: (enter root password here)
+        shell> bin/mysqlshow
+        shell> bin/mysqlshow mysql
+
+        mysqlshow -u root mysql
+        shell> bin/mysql -e "SELECT User, Host, plugin FROM mysql.user" mysql
+   ```
